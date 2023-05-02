@@ -4,9 +4,7 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Open;
+import net.serenitybdd.screenplay.actions.*;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -26,7 +24,8 @@ public class PaginaZonaGamer {
         actor.attemptsTo(
                 Open.url("https://www.falabella.com.co"),
                 Click.on(OK_SALTAR),
-                Ensure.that(SECCION_GAMING).text().isEqualTo(seccion)
+                Ensure.that(SECCION_GAMING).text().isEqualTo(seccion),
+                Scroll.to(CLICKEAR_LINK_GAMING)
         );
     }
     @Cuando("{actor} da click en el link de la seccion de gaming")
