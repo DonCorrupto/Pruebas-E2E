@@ -12,3 +12,7 @@ Escenario automatizado numero 4
 
 Escenario automatizado numero 5
 ![image](https://user-images.githubusercontent.com/79235849/235332267-c8e09d2d-535f-4f23-8557-29c9f146f614.png)
+
+Reporte serenity
+![image](https://user-images.githubusercontent.com/92191235/236592507-de019865-dd91-4fb0-b340-0fbe2df007e1.png)
+
